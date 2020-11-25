@@ -2,7 +2,7 @@
 
 args.world_size = 사용할 gpu 수
 
-## 동작
+## 요약~
 * 사용할 gpu 수만큼 초기 init weight가 같은 네트워크 구성.
   * 배치가 128면, 각 네트워크당 배치크기 : 128 / gpu 수
 * data sampler를 통해 서로 다른 네트워크에 서로 다른 데이터 배분.
